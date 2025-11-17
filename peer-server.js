@@ -8,6 +8,3 @@ const server = PeerServer({
 });
 
 console.log(`PeerJS signaling server running on port ${port}, path /shogi`);
-
-// ヘルスチェック
-app.get("/", (req, res) => res.send("ok"));
